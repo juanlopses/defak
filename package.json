@@ -2,10 +2,10 @@
   "name": "nsfw-face-swap-api",
   "version": "1.0.0",
   "description": "API para intercambio de rostros usando el modelo NSFW Face Swap",
-  "main": "server.js",
+  "main": "server.cjs",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.cjs",
     "dev": "nodemon server.js",
     "test": "jest",
     "lint": "eslint .",
